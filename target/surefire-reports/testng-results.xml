@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="450447" started-at="2018-07-27T12:09:19Z" finished-at="2018-07-27T12:16:50Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="450447" started-at="2018-07-27T12:09:19Z" finished-at="2018-07-27T12:16:50Z">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@4667ae56]" name="setUp" is-config="true" duration-ms="19675" started-at="2018-07-27T12:09:45Z" finished-at="2018-07-27T12:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCompaniesPageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@4667ae56]" name="validateCompaniesPageTitleTest" duration-ms="12" started-at="2018-07-27T12:10:05Z" finished-at="2018-07-27T12:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCompaniesPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@4667ae56]" name="tearDown" is-config="true" duration-ms="906" started-at="2018-07-27T12:10:05Z" finished-at="2018-07-27T12:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="13916" started-at="2018-07-27T12:10:06Z" finished-at="2018-07-27T12:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="validateLoginPageTitleTest" duration-ms="29" started-at="2018-07-27T12:10:20Z" finished-at="2018-07-27T12:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="800" started-at="2018-07-27T12:10:20Z" finished-at="2018-07-27T12:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.CompaniesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="24956" started-at="2018-07-27T12:09:19Z" finished-at="2018-07-27T12:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCompaniesLabel()[pri:1, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="validateCompaniesLabel" duration-ms="36" started-at="2018-07-27T12:09:44Z" finished-at="2018-07-27T12:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCompaniesLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="843" started-at="2018-07-27T12:09:44Z" finished-at="2018-07-27T12:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="23981" started-at="2018-07-27T12:10:21Z" finished-at="2018-07-27T12:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="5815" started-at="2018-07-27T12:10:45Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IT Industry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="853" started-at="2018-07-27T12:10:51Z" finished-at="2018-07-27T12:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="20924" started-at="2018-07-27T12:10:52Z" finished-at="2018-07-27T12:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="5848" started-at="2018-07-27T12:11:13Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:11:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="838" started-at="2018-07-27T12:11:18Z" finished-at="2018-07-27T12:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="52802" started-at="2018-07-27T12:11:19Z" finished-at="2018-07-27T12:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="6487" started-at="2018-07-27T12:12:12Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Service and Product]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="851" started-at="2018-07-27T12:12:19Z" finished-at="2018-07-27T12:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="23761" started-at="2018-07-27T12:12:19Z" finished-at="2018-07-27T12:12:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="5822" started-at="2018-07-27T12:12:43Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:12:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IT Industry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="837" started-at="2018-07-27T12:12:49Z" finished-at="2018-07-27T12:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="21948" started-at="2018-07-27T12:12:50Z" finished-at="2018-07-27T12:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="5865" started-at="2018-07-27T12:13:12Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="870" started-at="2018-07-27T12:13:18Z" finished-at="2018-07-27T12:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="26031" started-at="2018-07-27T12:13:19Z" finished-at="2018-07-27T12:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="5971" started-at="2018-07-27T12:13:45Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:13:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Service and Product]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="835" started-at="2018-07-27T12:13:51Z" finished-at="2018-07-27T12:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="51975" started-at="2018-07-27T12:13:51Z" finished-at="2018-07-27T12:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="5804" started-at="2018-07-27T12:14:43Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:14:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GG]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IT Industry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="845" started-at="2018-07-27T12:14:49Z" finished-at="2018-07-27T12:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="23181" started-at="2018-07-27T12:14:50Z" finished-at="2018-07-27T12:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="5814" started-at="2018-07-27T12:15:13Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="864" started-at="2018-07-27T12:15:19Z" finished-at="2018-07-27T12:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="22763" started-at="2018-07-27T12:15:20Z" finished-at="2018-07-27T12:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="37038" started-at="2018-07-27T12:15:43Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[II]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Service and Product]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="876" started-at="2018-07-27T12:16:20Z" finished-at="2018-07-27T12:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="22442" started-at="2018-07-27T12:16:21Z" finished-at="2018-07-27T12:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="5887" started-at="2018-07-27T12:16:43Z" data-provider="getCRMTestData" finished-at="2018-07-27T12:16:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JJ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCompanyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="857" started-at="2018-07-27T12:16:49Z" finished-at="2018-07-27T12:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.CompaniesPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
