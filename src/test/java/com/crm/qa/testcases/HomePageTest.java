@@ -6,10 +6,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.crm.qa.base.TestBase;
-
 import com.crm.qa.pages.CompaniesPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
+import com.crm.qa.pages.ResourcesPage;
 import com.crm.qa.testUtil.TestUtil;
 
 public class HomePageTest extends TestBase {
@@ -18,6 +18,7 @@ public class HomePageTest extends TestBase {
 	HomePage homePage;
 	TestUtil testUtil;
 	CompaniesPage companiesPage;
+	ResourcesPage resourcesPage;
 	
 
 	public HomePageTest() {
@@ -58,6 +59,12 @@ public class HomePageTest extends TestBase {
 	public void mouseMovementOnCompaniesLinkTest(){
 		testUtil.swithToFrame();
 		homePage.mouseMovementOnCompaniesLink();
+	}
+	
+	@Test(priority=5)
+	public void verifyResourcesLinkTest(){
+		testUtil.swithToFrame();
+		resourcesPage = homePage.verifyResourcesLink();
 	}
 
 	@AfterMethod

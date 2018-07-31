@@ -57,6 +57,13 @@ public class CompaniesPageTest extends TestBase {
 		//companiesPage.createNewCompany("oracle","IT Industry");
 		companiesPage.createNewCompany(company, industry);
 	}
+	
+	@Test(priority=3)
+	public void selectAllAndDeleteCheckedTest(){
+		
+		companiesPage.selectAllAndDelete();
+		
+	}
 
 	@AfterMethod
 	public void tearDown() {

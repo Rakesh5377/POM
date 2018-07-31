@@ -19,7 +19,10 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//a[@title='New Company']")
 	WebElement clickOnNewCompanyLink;
 	
-		
+	@FindBy(xpath="//a[@title='Resources']")
+	WebElement resourcesLink;
+	
+	
 	public HomePage(){
 		PageFactory.initElements(driver, this);
 	}
@@ -45,5 +48,10 @@ public class HomePage extends TestBase {
 	
 	}
 	
-	boolean booleanVal = false;
+	public ResourcesPage verifyResourcesLink(){
+		resourcesLink.click();
+		return new ResourcesPage();
+	}
+	
+	
 }
