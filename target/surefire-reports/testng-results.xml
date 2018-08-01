@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="13" passed="12">
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="350603" started-at="2018-07-30T06:44:30Z" finished-at="2018-07-30T06:50:21Z">
+  <suite name="Surefire suite" duration-ms="339407" started-at="2018-08-01T06:33:52Z" finished-at="2018-08-01T06:39:31Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="350603" started-at="2018-07-30T06:44:30Z" finished-at="2018-07-30T06:50:21Z">
+    <test name="Surefire test" duration-ms="339407" started-at="2018-08-01T06:33:52Z" finished-at="2018-08-01T06:39:31Z">
       <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@4667ae56]" name="setUp" is-config="true" duration-ms="14586" started-at="2018-07-30T06:44:55Z" finished-at="2018-07-30T06:45:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@17cd7a0]" name="setUp" is-config="true" duration-ms="18514" started-at="2018-08-01T06:34:23Z" finished-at="2018-08-01T06:34:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCompaniesPageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@4667ae56]" name="validateCompaniesPageTitleTest" duration-ms="8" started-at="2018-07-30T06:45:09Z" finished-at="2018-07-30T06:45:09Z">
+        <test-method status="PASS" signature="validateCompaniesPageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@17cd7a0]" name="validateCompaniesPageTitleTest" duration-ms="8" started-at="2018-08-01T06:34:41Z" finished-at="2018-08-01T06:34:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCompaniesPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@4667ae56]" name="tearDown" is-config="true" duration-ms="873" started-at="2018-07-30T06:45:09Z" finished-at="2018-07-30T06:45:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@17cd7a0]" name="tearDown" is-config="true" duration-ms="600" started-at="2018-08-01T06:34:41Z" finished-at="2018-08-01T06:34:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.HomePageTest -->
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="9346" started-at="2018-07-30T06:45:10Z" finished-at="2018-07-30T06:45:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4f30ec]" name="setUp" is-config="true" duration-ms="8433" started-at="2018-08-01T06:34:42Z" finished-at="2018-08-01T06:34:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateLoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="validateLoginPageTitleTest" duration-ms="16" started-at="2018-07-30T06:45:19Z" finished-at="2018-07-30T06:45:19Z">
+        <test-method status="FAIL" signature="validateLoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@4f30ec]" name="validateLoginPageTitleTest" duration-ms="39" started-at="2018-08-01T06:34:50Z" finished-at="2018-08-01T06:34:50Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Free CRM software in the cloud powers sales and customer service] but found [#1 Free CRM software in the cloud for sales and service]]]>
@@ -42,7 +42,7 @@ at com.crm.qa.testcases.LoginPageTest.validateLoginPageTitleTest(LoginPageTest.j
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
+at java.lang.reflect.Method.invoke(Method.java:497)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -75,29 +75,43 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="889" started-at="2018-07-30T06:45:19Z" finished-at="2018-07-30T06:45:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4f30ec]" name="tearDown" is-config="true" duration-ms="600" started-at="2018-08-01T06:34:50Z" finished-at="2018-08-01T06:34:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-      <class name="com.crm.qa.testcases.CompaniesPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="23549" started-at="2018-07-30T06:44:30Z" finished-at="2018-07-30T06:44:54Z">
+      <class name="com.crm.qa.testcases.ResourcesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ResourcesPageTest@25b2fe]" name="setUp" is-config="true" duration-ms="15828" started-at="2018-08-01T06:34:51Z" finished-at="2018-08-01T06:35:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCompaniesLabel()[pri:1, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="validateCompaniesLabel" duration-ms="41" started-at="2018-07-30T06:44:54Z" finished-at="2018-07-30T06:44:54Z">
+        <test-method status="PASS" signature="validateResourcesLabelTest()[pri:1, instance:com.crm.qa.testcases.ResourcesPageTest@25b2fe]" name="validateResourcesLabelTest" duration-ms="51" started-at="2018-08-01T06:35:07Z" finished-at="2018-08-01T06:35:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCompaniesLabel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="917" started-at="2018-07-30T06:44:54Z" finished-at="2018-07-30T06:44:55Z">
+        </test-method> <!-- validateResourcesLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ResourcesPageTest@25b2fe]" name="tearDown" is-config="true" duration-ms="606" started-at="2018-08-01T06:35:07Z" finished-at="2018-08-01T06:35:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="44856" started-at="2018-07-30T06:45:21Z" finished-at="2018-07-30T06:46:06Z">
+      </class> <!-- com.crm.qa.testcases.ResourcesPageTest -->
+      <class name="com.crm.qa.testcases.CompaniesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="30532" started-at="2018-08-01T06:33:52Z" finished-at="2018-08-01T06:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="24430" started-at="2018-07-30T06:46:06Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:46:30Z">
+        <test-method status="PASS" signature="validateCompaniesLabel()[pri:1, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="validateCompaniesLabel" duration-ms="37" started-at="2018-08-01T06:34:22Z" finished-at="2018-08-01T06:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCompaniesLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="640" started-at="2018-08-01T06:34:22Z" finished-at="2018-08-01T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="17852" started-at="2018-08-01T06:35:09Z" finished-at="2018-08-01T06:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="4991" started-at="2018-08-01T06:35:27Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:35:32Z">
           <params>
             <param index="0">
               <value>
@@ -113,15 +127,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="898" started-at="2018-07-30T06:46:30Z" finished-at="2018-07-30T06:46:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="628" started-at="2018-08-01T06:35:32Z" finished-at="2018-08-01T06:35:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="17251" started-at="2018-07-30T06:46:31Z" finished-at="2018-07-30T06:46:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="21681" started-at="2018-08-01T06:35:32Z" finished-at="2018-08-01T06:35:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="3751" started-at="2018-07-30T06:46:49Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:46:52Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="5544" started-at="2018-08-01T06:35:54Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:36:00Z">
           <params>
             <param index="0">
               <value>
@@ -137,15 +151,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="907" started-at="2018-07-30T06:46:52Z" finished-at="2018-07-30T06:46:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="613" started-at="2018-08-01T06:36:00Z" finished-at="2018-08-01T06:36:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="16689" started-at="2018-07-30T06:46:53Z" finished-at="2018-07-30T06:47:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="22031" started-at="2018-08-01T06:36:00Z" finished-at="2018-08-01T06:36:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="3878" started-at="2018-07-30T06:47:10Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:47:14Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="5700" started-at="2018-08-01T06:36:22Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:36:28Z">
           <params>
             <param index="0">
               <value>
@@ -161,15 +175,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="896" started-at="2018-07-30T06:47:14Z" finished-at="2018-07-30T06:47:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="623" started-at="2018-08-01T06:36:28Z" finished-at="2018-08-01T06:36:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="14436" started-at="2018-07-30T06:47:15Z" finished-at="2018-07-30T06:47:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="19893" started-at="2018-08-01T06:36:28Z" finished-at="2018-08-01T06:36:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="3663" started-at="2018-07-30T06:47:29Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:47:33Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="4894" started-at="2018-08-01T06:36:48Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:36:53Z">
           <params>
             <param index="0">
               <value>
@@ -185,15 +199,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="905" started-at="2018-07-30T06:47:33Z" finished-at="2018-07-30T06:47:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="607" started-at="2018-08-01T06:36:53Z" finished-at="2018-08-01T06:36:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="17423" started-at="2018-07-30T06:47:34Z" finished-at="2018-07-30T06:47:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="19467" started-at="2018-08-01T06:36:54Z" finished-at="2018-08-01T06:37:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="3717" started-at="2018-07-30T06:47:51Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:47:55Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="5497" started-at="2018-08-01T06:37:13Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:37:19Z">
           <params>
             <param index="0">
               <value>
@@ -209,15 +223,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="890" started-at="2018-07-30T06:47:55Z" finished-at="2018-07-30T06:47:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="606" started-at="2018-08-01T06:37:19Z" finished-at="2018-08-01T06:37:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="14010" started-at="2018-07-30T06:47:56Z" finished-at="2018-07-30T06:48:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="22604" started-at="2018-08-01T06:37:19Z" finished-at="2018-08-01T06:37:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="3602" started-at="2018-07-30T06:48:10Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:48:13Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="5260" started-at="2018-08-01T06:37:42Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:37:47Z">
           <params>
             <param index="0">
               <value>
@@ -233,15 +247,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="912" started-at="2018-07-30T06:48:13Z" finished-at="2018-07-30T06:48:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="596" started-at="2018-08-01T06:37:47Z" finished-at="2018-08-01T06:37:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="16705" started-at="2018-07-30T06:48:14Z" finished-at="2018-07-30T06:48:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="18557" started-at="2018-08-01T06:37:48Z" finished-at="2018-08-01T06:38:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="3856" started-at="2018-07-30T06:48:31Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:48:35Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="5859" started-at="2018-08-01T06:38:06Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:38:12Z">
           <params>
             <param index="0">
               <value>
@@ -257,15 +271,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="898" started-at="2018-07-30T06:48:35Z" finished-at="2018-07-30T06:48:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="589" started-at="2018-08-01T06:38:12Z" finished-at="2018-08-01T06:38:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="17905" started-at="2018-07-30T06:48:36Z" finished-at="2018-07-30T06:48:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="16498" started-at="2018-08-01T06:38:13Z" finished-at="2018-08-01T06:38:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="4086" started-at="2018-07-30T06:48:54Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:48:58Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="6319" started-at="2018-08-01T06:38:29Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:38:36Z">
           <params>
             <param index="0">
               <value>
@@ -281,15 +295,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="900" started-at="2018-07-30T06:48:58Z" finished-at="2018-07-30T06:48:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="606" started-at="2018-08-01T06:38:36Z" finished-at="2018-08-01T06:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="14663" started-at="2018-07-30T06:48:59Z" finished-at="2018-07-30T06:49:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="22064" started-at="2018-08-01T06:38:36Z" finished-at="2018-08-01T06:38:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="23874" started-at="2018-07-30T06:49:13Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:49:37Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="5657" started-at="2018-08-01T06:38:58Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:39:04Z">
           <params>
             <param index="0">
               <value>
@@ -305,15 +319,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="915" started-at="2018-07-30T06:49:37Z" finished-at="2018-07-30T06:49:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="590" started-at="2018-08-01T06:39:04Z" finished-at="2018-08-01T06:39:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="17464" started-at="2018-07-30T06:49:38Z" finished-at="2018-07-30T06:49:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="setUp" is-config="true" duration-ms="20325" started-at="2018-08-01T06:39:05Z" finished-at="2018-08-01T06:39:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="newCompanyTest" duration-ms="24082" started-at="2018-07-30T06:49:56Z" data-provider="getCRMTestData" finished-at="2018-07-30T06:50:20Z">
+        <test-method status="PASS" signature="newCompanyTest(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="newCompanyTest" duration-ms="5363" started-at="2018-08-01T06:39:25Z" data-provider="getCRMTestData" finished-at="2018-08-01T06:39:30Z">
           <params>
             <param index="0">
               <value>
@@ -329,7 +343,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCompanyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="891" started-at="2018-07-30T06:50:20Z" finished-at="2018-07-30T06:50:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@67ae56]" name="tearDown" is-config="true" duration-ms="601" started-at="2018-08-01T06:39:30Z" finished-at="2018-08-01T06:39:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

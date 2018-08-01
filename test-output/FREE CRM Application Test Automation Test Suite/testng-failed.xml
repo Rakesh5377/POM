@@ -6,20 +6,15 @@
   </listeners>
   <test thread-count="5" name="Free CRM App Test Cases(failed)" parallel="tests">
     <classes>
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <methods>
-          <include name="mouseMovementOnCompaniesLinkTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
-      <class name="com.crm.qa.testcases.CompaniesPageTest">
+      <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
           <include name="setUp"/>
+          <include name="validateLoginTest"/>
           <include name="tearDown"/>
-          <include name="newCompanyTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+          <include name="validateSignUpBtnTest"/>
+          <include name="validateLoginPageTitleTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.CompaniesPageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Free CRM App Test Cases(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
